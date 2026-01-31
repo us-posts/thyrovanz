@@ -1,0 +1,299 @@
+* {
+    font-family: Poppins;
+}
+body {
+    background-color: #EAEAEA;
+}
+h1 {
+    font-size: 1.275rem;
+    line-height: 1.55;
+}
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.35;
+}
+h3 {
+    font-size: 1.2rem;
+    line-height: 1.35;
+}
+a {
+    text-decoration: none;
+}
+p, li {
+    font-size: 16px;
+    line-height: 180%;
+    margin-bottom: 1.25rem;
+}
+b {
+    font-weight: bold;
+}
+.font-600 {
+    font-weight: 600;
+}
+.font-14 {
+    font-size: 14px;
+}
+.color-red {
+    color: #FF0000;
+}
+.color-green {
+    color: #48AA5A;
+}
+.color-purple {
+    color: #4F3B66;
+}
+.color-yellow {
+    color: #F5FF00;
+}
+.color-orange {
+    color: #F58F03;
+}
+.color-dark-grey {
+    color: #707070;
+}
+.bg-green {
+    background-color: #48AA5A;
+}
+.top-card-green {
+    background: #11812D;
+}
+.top-card-light-green {
+    background: #97d8a3;
+}
+.card-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card {
+    position: relative;
+    background: #f1f1f1;
+    border-radius: 35px;
+    -webkit-box-shadow: 4px 4px 15px 0px rgba(46,44,165,0.25);
+    -moz-box-shadow: 4px 4px 15px 0px rgba(46,44,165,0.25);
+    box-shadow: 4px 4px 15px 0px rgba(46,44,165,0.25);
+}
+.card-product {
+    background: #f1f1f1;
+    background: linear-gradient(180deg, #f1fffe) , #f0f0f0;
+    border-radius: 35px;
+}
+.price {
+    font-size: 2.75rem;
+}
+.text-card {
+    background-color: #fff;
+    border-radius: 6px;
+}
+.custom-btn {
+    background: #F7A732;
+    width: 75%;
+    border-radius: 35px;
+    -webkit-box-shadow:  0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:  0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    box-shadow:  0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.testimonial-name {
+    font-size: 1rem;
+    line-height: 120%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.upsell-yes img {
+    transition: .2s;
+}
+.upsell-yes img:hover {
+    transform: scale(1.1);
+}
+.upsell-no {
+    background-color: #D8D8D8;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    color: #262626;
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    font-size: 1.25rem;
+    transition: .2s;
+}
+.upsell-no:hover {
+    background-color: #EAEAEA;
+    color: #262626;
+    text-decoration: none;
+}
+.upsell-yes, .upsell-no {
+    cursor: pointer;
+}
+.price::after {
+    transform: translateX(5%);
+    content: 'Per Bottle';
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.tsl-link {
+    color: #222;
+}
+.testimonial {
+    border: 1px solid #eee;
+    border-radius: 25px;
+    background-color: #eee;
+    background-image: url("../includes/img/q-mark.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 5% 15%;
+    padding: 25px;
+}
+.testimonial p {
+    font-style: italic;
+}
+.testimonial h4 {
+    text-align: right;
+}
+.testimonial .fa-star {
+    color: #cece04;
+}
+@media (min-width: 769px) {
+    h1 {
+        font-size: 2.1rem;
+        line-height: 1.55;
+    }
+    h2 {
+        font-size: 1.8rem;
+        line-height: 1.35;
+    }
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1.35;
+    }
+    p, li {
+        font-size: 18px;
+    }
+    .footer-menu ul{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/*Footer style*/
+footer {
+    border-top: 1px solid #808080;
+    color: #eee;
+}
+footer .footer-section {
+    background: #222;
+}
+footer .container a, footer .container p{
+    font-size: 12px;
+}
+a.footer-link {
+    color: #eee;
+}
+footer .copyright-row {
+    background-color: #111;
+}
+footer #disclaimer .main.container>div {
+    background-color: transparent!important;
+    box-shadow: none!important;
+}
+footer #disclaimer .bg-text-disclaimer {
+    font-family: 'Poppins', sans-serif!important;
+}
+footer #disclaimer .bg-img-disclaimer {
+    display: none!important;
+}
+
+/*== VIDEO CSS ==*/
+#player-wrapper{
+    position: absolute;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#player {
+    border: 5px solid #222;
+}
+#glass {
+    background-color: transparent;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-position: center;
+    z-index: 4;
+}
+#playpause {
+    background: rgba(0,0,0,0.8);
+    background-size: cover;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-position: center;
+    z-index: 4;
+}
+a.soundButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    cursor: pointer;
+    z-index: 6;
+}
+#playpause {
+    visibility: hidden;
+}
+#tapSound, #tapContinue {
+    max-width: 90%;
+    position: absolute;
+    top: 35%;
+    left: 7.5%;
+}
+#action-area {
+    display: none;
+}
+.price-box {
+    transition: transform .2s;
+}
+.price-box:hover {
+    transform: scale(1.1);
+    z-index: 3;
+}
+#ribbon-absolute {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 200px;
+}
+.load-holder {
+    background-color: #222;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.load-holder p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+@media (min-width: 768px) {
+    .load-holder {
+        max-width: 50%;
+    }
+}
